@@ -15,7 +15,7 @@ export default function Jogo(props) {
         <div className="jogo">
             <img className={`boneco ${imgboneco}`} src={forca0} />
             <div className="botIniciar">
-                <button>Iniciar o jogo</button>
+                <button disabled>Iniciar o jogo</button>
             </div>
         </div>
     );
