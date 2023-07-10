@@ -48,11 +48,13 @@ button {
     width: 40px;
     height: 40px;
     margin-left: 10px;
-    background-color: #2c5777;
-    border-color: #2c5777;
+    color: #7AA7C7;
+    background-color: #E1ECF4;
+    border-color: #7AA7C7;
     text-transform: uppercase;
 }
 
 .letras > button:disabled {
-    background-color: #7AA7C7;
+    background-color: #798A9F;
+    border-color: #7AA7C7;
 }

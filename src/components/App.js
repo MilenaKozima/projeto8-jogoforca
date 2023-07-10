@@ -19,7 +19,7 @@ export default  function App() {
   const [palavraSorteada, setPalavraSorteada] = useState("");
   let [palavraunder, setPalavraUnder] = useState([]);
   let [letrasSelecionadas, setLetrasSelecionadas] = useState([...alfabeto]);
-  let [erros, setErros] = useState(0);
+  const [erros, setErros] = useState(0);
 
 
   return (
